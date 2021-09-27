@@ -7,7 +7,6 @@ score_2 = 0
 
 check_players = Players.check_players
 players = Players.players
-player_1, player_2 = Players.check_players(players)
 
 if players == 2:
     player_1, player_2 = check_players(players)
